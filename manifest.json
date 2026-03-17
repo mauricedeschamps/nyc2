@@ -1,0 +1,82 @@
+{
+  "name": "NYC Travel Guide - ニューヨーク観光ガイド",
+  "short_name": "NYC Guide",
+  "description": "ニューヨークの12の主要観光スポットを紹介する観光ガイドアプリ。多言語対応、ダークモード対応。",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0c2461",
+  "theme_color": "#0c2461",
+  "categories": ["travel", "lifestyle", "education"],
+  "lang": "ja",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "IMG_20250721_192101_(192_x_192_ピクセル).jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "IMG_20250721_192133_(512_x_512_ピクセル).jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "IMG_20250721_192101_(192_x_192_ピクセル).jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "maskable"
+    },
+    {
+      "src": "IMG_20250721_192133_(512_x_512_ピクセル).jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot1.jpg",
+      "sizes": "1080x1920",
+      "type": "image/jpeg",
+      "platform": "wide",
+      "label": "ホーム画面 - ニューヨークの観光スポット一覧"
+    },
+    {
+      "src": "screenshot2.jpg",
+      "sizes": "1080x1920",
+      "type": "image/jpeg",
+      "platform": "wide",
+      "label": "詳細画面 - 観光スポットの詳細情報"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "観光スポット一覧",
+      "short_name": "一覧",
+      "description": "ニューヨークの観光スポット一覧を表示",
+      "url": "/#attractions",
+      "icons": [
+        {
+          "src": "IMG_20250721_192101_(192_x_192_ピクセル).jpg",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "お問い合わせ",
+      "short_name": "連絡先",
+      "description": "お問い合わせ先を表示",
+      "url": "/#contact",
+      "icons": [
+        {
+          "src": "IMG_20250721_192101_(192_x_192_ピクセル).jpg",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

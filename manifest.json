@@ -1,16 +1,16 @@
 {
-  "name": "NYC Travel Guide - ニューヨーク観光ガイド",
+  "name": "NYC Travel Guide - New York Attractions",
   "short_name": "NYC Guide",
-  "description": "ニューヨークの12の主要観光スポットを紹介する観光ガイドアプリ。多言語対応、ダークモード対応。",
+  "description": "Discover the best attractions in New York City. Complete travel guide with maps, transportation info, and tips.",
   "start_url": "index.html",
   "display": "standalone",
-  "orientation": "portrait",
   "background_color": "#0c2461",
   "theme_color": "#0c2461",
-  "categories": ["travel", "lifestyle", "education"],
-  "lang": "ja",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "en",
   "dir": "ltr",
-  "prefer_related_applications": false,
+  "categories": ["travel", "lifestyle", "education"],
   "icons": [
     {
       "src": "IMG_20250721_192101_(192_x_192_ピクセル).jpg",
@@ -23,42 +23,21 @@
       "sizes": "512x512",
       "type": "image/jpeg",
       "purpose": "any maskable"
-    },
-    {
-      "src": "IMG_20250721_192101_(192_x_192_ピクセル).jpg",
-      "sizes": "192x192",
-      "type": "image/jpeg",
-      "purpose": "maskable"
-    },
-    {
-      "src": "IMG_20250721_192133_(512_x_512_ピクセル).jpg",
-      "sizes": "512x512",
-      "type": "image/jpeg",
-      "purpose": "maskable"
     }
   ],
   "screenshots": [
     {
-      "src": "screenshot1.jpg",
-      "sizes": "1080x1920",
-      "type": "image/jpeg",
-      "platform": "wide",
-      "label": "ホーム画面 - ニューヨークの観光スポット一覧"
-    },
-    {
-      "src": "screenshot2.jpg",
-      "sizes": "1080x1920",
-      "type": "image/jpeg",
-      "platform": "wide",
-      "label": "詳細画面 - 観光スポットの詳細情報"
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1280' height='720' viewBox='0 0 1280 720'%3E%3Crect width='1280' height='720' fill='%230c2461'/%3E%3Ctext x='100' y='200' fill='%23f6b93b' font-size='48' font-family='Arial'%3ENYC Travel Guide%3C/text%3E%3C/svg%3E",
+      "sizes": "1280x720",
+      "type": "image/svg+xml"
     }
   ],
   "shortcuts": [
     {
-      "name": "観光スポット一覧",
-      "short_name": "一覧",
-      "description": "ニューヨークの観光スポット一覧を表示",
-      "url": "/#attractions",
+      "name": "View All Attractions",
+      "short_name": "Attractions",
+      "description": "View all NYC attractions",
+      "url": "index.html#attractions",
       "icons": [
         {
           "src": "IMG_20250721_192101_(192_x_192_ピクセル).jpg",
@@ -67,10 +46,10 @@
       ]
     },
     {
-      "name": "お問い合わせ",
-      "short_name": "連絡先",
-      "description": "お問い合わせ先を表示",
-      "url": "/#contact",
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Get in touch with us",
+      "url": "index.html#contact",
       "icons": [
         {
           "src": "IMG_20250721_192101_(192_x_192_ピクセル).jpg",

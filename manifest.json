@@ -2,7 +2,7 @@
   "name": "NYC Travel Guide - ニューヨーク観光ガイド",
   "short_name": "NYC Guide",
   "description": "ニューヨークの12の主要観光スポットを紹介する観光ガイドアプリ。多言語対応、ダークモード対応。",
-  "start_url": "/",
+  "start_url": "index.html",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#0c2461",

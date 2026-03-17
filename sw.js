@@ -4,8 +4,8 @@ const CACHE_NAME = 'nyc-travel-guide-v1.0.0';
 // キャッシュするリソース
 const urlsToCache = [
   '/',
-  '/index.html',
-  '/manifest.json',
+  'index.html',
+  'manifest.json',
   '/IMG_20250721_192101_(192_x_192_ピクセル).jpg',
   '/IMG_20250721_192133_(512_x_512_ピクセル).jpg',
   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZfiKueoe4RXzCxhfnAY32pdr6IHHnpp77q7k5i9hM0u1QoW6sNBbONBY&s=10%3D%3D&auto=format&fit=crop&w=800&q=80',
